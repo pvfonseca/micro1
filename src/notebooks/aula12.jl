@@ -479,6 +479,28 @@ md"""
 	2. **Custo variável médio de curto prazo**: $CVMe_{CP}(v, w, q; \bar{k}) \equiv \frac{wl_{CP}(v, w, q; \bar{k})}{q}$
 """
 
+# ╔═╡ e6a38f9b-b813-4d24-b41d-ffd9440e9772
+md"""
+Curvas de custo médio de curto prazo: (a) custo fixo médio, (b) custo variável médio, (c) custo médio. Fonte: Varian (2006)
+$(Resource("https://raw.githubusercontent.com/pvfonseca/micro1/main/notas/figures/aula13_fig1.JPG", :width=>800))
+"""
+
+# ╔═╡ 0ec2c84f-e31f-40c4-9f18-95782b6abadf
+md"
+* O custo fixo médio é sempre decrescente na quantidade produzida
+* O custo variável médio pdoe ser decrescente inicialmente mas, como alguns fatores são fixos, se tornará crescente quando a produção aumentar
+* O custo médio é a soma das duas curvas anteriores
+"
+
+# ╔═╡ f968e6ea-2cb0-4758-ac73-942d23d98d75
+md"
+* Para quantidades pequenas de produção, boa parte dos custos totais são custos fixos
+* Para níveis altos de produção, esses custos fixos são diluídos e irão compor uma parte menor dos custos totais
+* Como a curva de custo médio é a soma das curvas de custo fixo médio e de custo variável médio, os custos médios serão decrescentes para níveis baixos de produção, em razão da predominância dos custos fixos médios sobre custos variáveis médios
+* Por outro lado, a curva de custo médio será crescente para níveis elevados de produção, já que a relação entre custos fixos médios e custos variáveis médios se invertem
+* Portanto, o formato mais comum para a curva de custo médio é em U
+"
+
 # ╔═╡ b1fdc06c-ba3c-41cb-8bec-91688bb39c68
 md"
 ## 📚 Bibliografia
@@ -814,7 +836,10 @@ version = "17.4.0+0"
 # ╟─76951cd6-ce41-4695-b207-fd9441cb8d76
 # ╟─d9608af2-10f9-4c49-9198-d58b1c9ead1e
 # ╟─1a370f57-90dd-4fe9-a557-81ce32a534c5
-# ╠═e0022b6b-f4f7-4616-ab52-f62643dc742e
+# ╟─e0022b6b-f4f7-4616-ab52-f62643dc742e
+# ╟─e6a38f9b-b813-4d24-b41d-ffd9440e9772
+# ╟─0ec2c84f-e31f-40c4-9f18-95782b6abadf
+# ╟─f968e6ea-2cb0-4758-ac73-942d23d98d75
 # ╟─b1fdc06c-ba3c-41cb-8bec-91688bb39c68
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
