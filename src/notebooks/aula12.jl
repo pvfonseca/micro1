@@ -501,6 +501,41 @@ md"
 * Portanto, o formato mais comum para a curva de custo médio é em U
 "
 
+# ╔═╡ c1607afb-c4d1-40e4-bac9-7a1862dccb18
+md"""
+Curva de custo médio de curto prazo. Fonte: Resende
+$(Resource("https://raw.githubusercontent.com/pvfonseca/micro1/main/notas/figures/aula13_fig2.JPG", :width=>800))
+"""
+
+# ╔═╡ 0d311391-e324-4d9d-a204-8ae206eaf27c
+md"
+### Custo marginal de curto prazo
+"
+
+# ╔═╡ 94b1f5d8-eef2-4423-919e-675fab060889
+md"""
+!!! correct "Custo marginal de curto prazo"
+	É a variação do custo total mínimo gerada pela variação em uma unidade de produção, em uma situação em que a firma não pode ajustar a quantidade de pelo menos um fator de produção:
+
+	$$CMg_{CP} \equiv \frac{\partial C_{CP}(v, w, q; \bar{k})}{\partial q} = \frac{\partial CV_{CP}(v, w, q; \bar{k})}{\partial q}$$
+"""
+
+# ╔═╡ 6cc3706b-b95f-4ad0-9dac-07a790ee0646
+md"
+### Custo médio x custo marginal
+"
+
+# ╔═╡ 0a39b654-8384-414c-819b-557f2a6aac0e
+md"
+* Tomando a derivada da função custo médio de curto prazo, temos o seguinte resultado:
+
+$$\frac{\partial CMe_{CP}}{\partial q} = \frac{1}{q}\left[CMg_{CP} - CMe_{CP}\right]$$
+
+1. Se $CMg_{CP} < CMe_{CP}$, a curva de custo médio de curto prazo é estritamente decrescente
+2. Se $CMg_{CP} > CMe_{CP}$, a curva de custo médio de curto prazo é estritamente crescente
+3. Se $CMg_{CP} = CMe_{CP}$, temos o ponto de mínimo do custo médio de curto prazo
+"
+
 # ╔═╡ b1fdc06c-ba3c-41cb-8bec-91688bb39c68
 md"
 ## 📚 Bibliografia
@@ -840,6 +875,11 @@ version = "17.4.0+0"
 # ╟─e6a38f9b-b813-4d24-b41d-ffd9440e9772
 # ╟─0ec2c84f-e31f-40c4-9f18-95782b6abadf
 # ╟─f968e6ea-2cb0-4758-ac73-942d23d98d75
+# ╟─c1607afb-c4d1-40e4-bac9-7a1862dccb18
+# ╟─0d311391-e324-4d9d-a204-8ae206eaf27c
+# ╟─94b1f5d8-eef2-4423-919e-675fab060889
+# ╟─6cc3706b-b95f-4ad0-9dac-07a790ee0646
+# ╠═0a39b654-8384-414c-819b-557f2a6aac0e
 # ╟─b1fdc06c-ba3c-41cb-8bec-91688bb39c68
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
