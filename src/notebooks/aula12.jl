@@ -536,6 +536,26 @@ $$\frac{\partial CMe_{CP}}{\partial q} = \frac{1}{q}\left[CMg_{CP} - CMe_{CP}\ri
 3. Se $CMg_{CP} = CMe_{CP}$, temos o ponto de mínimo do custo médio de curto prazo
 "
 
+# ╔═╡ 637e8934-dc1c-4eea-a70f-bdad529cae54
+md"""
+Curva médio de curto prazo $\times$ custo marginal de curto prazo. Fonte: Resende
+$(Resource("https://raw.githubusercontent.com/pvfonseca/micro1/main/notas/figures/aula13_fig3.JPG", :width=>800))
+"""
+
+# ╔═╡ d29a4b45-0f64-4d05-90bb-003677ace714
+md"""
+!!! warning "Custo médio de curto prazo x custo marginal de curto prazo"
+	Em resumo, a curva de custo marginal de curto prazo está abaixo da curva de custo médio quando esta é decrescente, e acima da curva de custo médio quando esta é crescente
+
+	As duas curvas se cruzam no ponto mínimo da curva de custo médio de curto prazo
+"""
+
+# ╔═╡ b50042ca-610f-4936-8e60-fd6115c3812f
+md"
+* O custo marginal de curto prazo é igual ao custo variável médio de curto prazo quando a produção é nula ($q = 0$)
+* Ademais, se o custo marginal é estritamente menor (maior) que o custo variável médio, então, a função custo variável médio é estritamente decrescente (crescente), e a função custo marginal de curto prazo cruza a função custo variável médio no ponto de mínimo desta última
+"
+
 # ╔═╡ b1fdc06c-ba3c-41cb-8bec-91688bb39c68
 md"
 ## 📚 Bibliografia
@@ -879,7 +899,10 @@ version = "17.4.0+0"
 # ╟─0d311391-e324-4d9d-a204-8ae206eaf27c
 # ╟─94b1f5d8-eef2-4423-919e-675fab060889
 # ╟─6cc3706b-b95f-4ad0-9dac-07a790ee0646
-# ╠═0a39b654-8384-414c-819b-557f2a6aac0e
+# ╟─0a39b654-8384-414c-819b-557f2a6aac0e
+# ╟─637e8934-dc1c-4eea-a70f-bdad529cae54
+# ╟─d29a4b45-0f64-4d05-90bb-003677ace714
+# ╟─b50042ca-610f-4936-8e60-fd6115c3812f
 # ╟─b1fdc06c-ba3c-41cb-8bec-91688bb39c68
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
