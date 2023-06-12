@@ -556,6 +556,45 @@ md"
 * Ademais, se o custo marginal é estritamente menor (maior) que o custo variável médio, então, a função custo variável médio é estritamente decrescente (crescente), e a função custo marginal de curto prazo cruza a função custo variável médio no ponto de mínimo desta última
 "
 
+# ╔═╡ ff7ada22-a36b-4396-84de-3f602e7d363e
+md"""
+Curvas de custo de curto prazo. Fonte: Varian (2006)
+$(Resource("https://raw.githubusercontent.com/pvfonseca/micro1/main/notas/figures/aula13_fig4.JPG", :width=>800))
+"""
+
+# ╔═╡ 24383beb-e648-4011-9818-e33e05684cd7
+md"
+## Função custo de longo prazo
+"
+
+# ╔═╡ 90130d96-9fe6-4159-824c-9f4f78c7206c
+md"""
+!!! correct "Função custo de longo prazo"
+	* É a função custo que fornece o custo total mínimo necessário para atingir uma meta de produção $q$ de um bem quando a firma pode ajustar as quantidades de todos os seus fatores de produção
+
+	* Portanto, é a mesma função custo que definimos anteriormente:
+
+	$$C_{LP}(v, w, q) = C(v, w, q)$$
+"""
+
+# ╔═╡ bc3bcfce-07d4-49fa-85f3-128183b57291
+md"""
+!!! correct "Custo médio de longo prazo"
+	* É o custo mínimo por unidade produzida quando todos os fatores de produção são variáveis
+
+	* Como não há custo fixo no longo prazo, o custo médio de longo prazo ($CMe_{LP}$) e o custo variável médio de longo prazo ($CVMe_{LP}$) são iguais:
+
+	$$CMe_{LP} = CVMe_{LP} = \begin{cases} \frac{C(v, w, q)}{q}, \qquad \text{se} \quad q > 0 \\ 0, \qquad \text{se} \quad q = 0\end{cases}$$
+"""
+
+# ╔═╡ 44e12631-68b2-4f3a-b0b7-4690b85a4e6f
+md"""
+!!! correct "Custo marginal de longo prazo"
+	É a variação do custo total mínimo gerada pela variação em uma unidade de produção, em uma situação em que a firma pode ajustar todas as quantidades dos fatores de produção:
+
+	$$CMg_{LP} = \frac{\partial C_{LP}(v, w, q)}{\partial q} = \frac{\partial CV_{LP}(v, w, q)}{\partial q}$$
+"""
+
 # ╔═╡ b1fdc06c-ba3c-41cb-8bec-91688bb39c68
 md"
 ## 📚 Bibliografia
@@ -564,7 +603,9 @@ MAS-COLELL, A.; WHINSTON, M.D.; GREEN, J.R. Microeconomic Theory. New York, NY: 
 
 NICHOLSON, W.; SNYDER C. [Teoria microeconômica: Princípios básicos e aplicações](https://app.minhabiblioteca.com.br/books/9788522127030). Cengage Learning Brasil, 2019
 
-VARIAN, H. R. [Microeconomia: uma abordagem moderna](https://app.minhabiblioteca.com.br/books/9788595155107). 9.ed. Rio de Janeiro: Elsevier, 2015
+RESENDE, J. G. L. Microeconomia I: Notas de Aula
+
+VARIAN, H. R. Intermediate Microeconomics: A modern approach. 7.ed. New York: W.W. Norton & Company, 2006
 "
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
@@ -903,6 +944,11 @@ version = "17.4.0+0"
 # ╟─637e8934-dc1c-4eea-a70f-bdad529cae54
 # ╟─d29a4b45-0f64-4d05-90bb-003677ace714
 # ╟─b50042ca-610f-4936-8e60-fd6115c3812f
+# ╟─ff7ada22-a36b-4396-84de-3f602e7d363e
+# ╟─24383beb-e648-4011-9818-e33e05684cd7
+# ╟─90130d96-9fe6-4159-824c-9f4f78c7206c
+# ╟─bc3bcfce-07d4-49fa-85f3-128183b57291
+# ╟─44e12631-68b2-4f3a-b0b7-4690b85a4e6f
 # ╟─b1fdc06c-ba3c-41cb-8bec-91688bb39c68
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
