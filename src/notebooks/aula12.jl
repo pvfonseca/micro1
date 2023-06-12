@@ -348,6 +348,137 @@ md"""
 > onde $B\equiv (\alpha + \beta)\alpha^{-\frac{\alpha}{\alpha + \beta}}\beta^{-\frac{\beta}{\alpha+\beta}}$
 """
 
+# ╔═╡ 2e812924-dea6-4dd0-acc0-e0e15f41ca65
+md"
+## Função custo no curto prazo
+"
+
+# ╔═╡ c4f64f27-d80e-4d9b-a652-f03ec1c72f56
+md"
+* Em economia, é tradicional fazermos uma distinção entre o **curto prazo** e o **longo prazo**
+* EMbora uma definição temporal precisa não possa ser fornecida para esses termos, o objetivo geral da distinção é diferenciar um curto período durante o qual os agentes econômicos têm apenas uma flexibilidade limitada em suas ações e um período mais longo que proporciona maior liberdade
+* Essa distinção é particularmente importante na teoria da firma e seus custos
+* Isso porque economistas estão interessados em analisar as reações da oferta em diferentes intervalos de tempo
+"
+
+# ╔═╡ 0e3fea8f-c3f0-4f77-afa2-09964288ac25
+md"""
+!!! correct "Função custo de curto prazo"
+	* A função custo de curto prazo (ou função custo restringida) é a função que fornece o custo total mínimo necessário para atingir uma meta de produção $q$ de um bem quando a firma não pode ajustar a quantidade de pelo menos um dos fatores de produção
+
+	* Formalmente, supomos que no curto prazo o fator de produção capital utilizado pela firma seja fixo em um nível predeterminado $\bar{k} > 0$
+
+	* Assim, a função custo de curto prazo é dada por:
+
+	$$C_{CP}(v, w, q; \bar{k}) \equiv \min_{l} v\bar{k} + wl \quad \text{s.r.} \quad q = f(\bar{k}, l)$$
+"""
+
+# ╔═╡ d565a390-479c-4885-a846-12758ff91ba2
+md"
+* No caso de apenas um insumo variável, a escolha ótima da firma é óbvia: é a quantidade mínima do insumo variável que é capaz de produzir $q$ unidades do bem final
+* Para o caso de vários insumos, a escolha não é tão simples, já que a firma pdoe escolher a substituição entre os insumos variáveis existentes
+* Como estamos considerando o caso de apenas um insumo variável, as **demandas condicionais de fatores de curto prazo** podem ser representadas como:
+
+$$\begin{align}
+k^* &= \bar{k}, \\
+l^* &= l_{CP}(v, w, q; \bar{k})\end{align}$$
+
+* A demanda pelo insumo trabalho depende do nível que a firma possui do fator capital, $\bar{k}$
+
+* Dadas as demandas condicionais de fatores de curto prazo, a **função custo de curto prazo** é obtida simplesmente substituindo tais demandas na função-objetivo do problema de minimização de custos de curto prazo:
+
+$$C_{CP}(v, w, q; \bar{k}) = vk^* + wl^* = v\bar{k} + wl_{CP}(v, w, q; \bar{k})$$
+
+* Note que o **custo variável de curto prazo** é: $CV_{CP} = wl_{CP}(v, w, q; \bar{k})$
+
+* E o **custo fixo de curto prazo** é: $CF_{CP} = v\bar{k}$
+"
+
+# ╔═╡ 7b3277d5-af53-405c-b72b-8a2427d8c036
+md"
+### Funções custos: definições
+"
+
+# ╔═╡ f2ff5607-5d57-435b-a2ff-b95347281185
+md"
+* Os custos totais de uma firma podem ser divididos em várias categorias
+"
+
+# ╔═╡ 56df8b45-11da-4004-aadc-bbeee03d1dcd
+md"""
+!!! correct "Custo fixo"
+	* O custo fixo de uma firma é a parte do custo que não varia com a quantidade produzida
+
+	* Em outras palavras, custos fixos são aqueles associados aos fatores de produção fixos - fatores cujas quantidades utilizadas independem do nível de produção e, sobretudo, recebem pagamento haja ou não produção
+
+	* Exemplos: aluguel, contadores, segurança, etc.
+"""
+
+# ╔═╡ 5b017406-a4d7-4363-8eac-e4ba6f2bef00
+md"""
+!!! correct "Custo variável"
+	* O custo variável é a parte do custo que varia com a quantidade produzida
+
+	* Exemplos: gastos com mão-de-obra, insumos variáveis, etc.
+"""
+
+# ╔═╡ f6fffb2d-1167-4cf8-a39c-59f83ced194b
+md"""
+!!! warning "Custo variável e custo fixo"
+	A classificação de um custo como fixo ou variável depende do horizonte temporal da análise
+
+	No longo prazo, todos os custos são variáveis
+"""
+
+# ╔═╡ ed21185b-0b97-4c56-96fb-ebfee3e0c2ca
+md"
+* O custo total é a soma do custo fixo e do custo variável
+* Outros dois tipos de custos importantes são custos irrecuperáveis ou afundados (_sunk costs_) e custos quase-fixos
+"
+
+# ╔═╡ 583d7b15-1241-4e41-a96c-d390b4d078bc
+md"""
+!!! correct "Custos irrecuperáveis ou afundados"
+	* São tipos de custos fixos que uma vez incorridos não podem ser recuperados caso a firma decida não produzir (sair do mercado)
+
+	* Exemplo: bens de capital com elevado grau de especificidade de uso apresentam mercados de revenda e de aluguel pouco desenvolvidos ou inexistentes, de forma que os custos irrecuperáveis associados são elevados
+"""
+
+# ╔═╡ 76951cd6-ce41-4695-b207-fd9441cb8d76
+md"""
+!!! correct "Custos quase-fixos"
+	* Custos quase-fixos ocorrem apenas se a firma decide produzir uma quantidade positiva do bem
+
+	* Se ela produz zero, não gasta nada desse custo
+
+	* Se ela produz qualquer quantidade positiva, ela gasta um valor fixo
+"""
+
+# ╔═╡ d9608af2-10f9-4c49-9198-d58b1c9ead1e
+md"
+* Em suma, os custos fixos independem do nível de produção e têm de ser pagos mesmo que a firma não produza
+* Custos quase-fixos, embora também independentes do nível de produção, só precisam ser pagos se a firma produzir uma quantidade estritamente positiva
+"
+
+# ╔═╡ 1a370f57-90dd-4fe9-a557-81ce32a534c5
+md"
+### Custo médio de curto prazo
+"
+
+# ╔═╡ e0022b6b-f4f7-4616-ab52-f62643dc742e
+md"""
+!!! correct "Custo médio de curto prazo"
+	É o custo mínimo por unidade produzida quando pelo menos um dos fatores de produção é fixo:
+
+	$$CMe_{CP}(v, w, q; \bar{k}) \equiv \frac{C_{CP}(v, w, q; \bar{k})}{q} = \underbrace{\frac{v\bar{k}}{q}}_{\color{pink}CFMe_{CP}} + \underbrace{\frac{wl_{CP}(v,w,q;\bar{k})}{q}}_{\color{black}CVMe_{CP}}$$
+
+	Como se pode observar, o custo médio de curto prazo pode ser decomposto em:
+
+	1. **Custo fixo médio de curto prazo**: $CFMe_{CP}(v, w, q; \bar{k}) \equiv \frac{v\bar{k}}{q}$
+
+	2. **Custo variável médio de curto prazo**: $CVMe_{CP}(v, w, q; \bar{k}) \equiv \frac{wl_{CP}(v, w, q; \bar{k})}{q}$
+"""
+
 # ╔═╡ b1fdc06c-ba3c-41cb-8bec-91688bb39c68
 md"
 ## 📚 Bibliografia
@@ -669,6 +800,21 @@ version = "17.4.0+0"
 # ╟─30cf223c-3121-4a06-86a1-054f4580a12e
 # ╟─b3b7d29b-63b5-4c0b-98da-e21d25f30061
 # ╟─ccfb8268-f769-4d58-b613-57554b539dfb
+# ╟─2e812924-dea6-4dd0-acc0-e0e15f41ca65
+# ╟─c4f64f27-d80e-4d9b-a652-f03ec1c72f56
+# ╟─0e3fea8f-c3f0-4f77-afa2-09964288ac25
+# ╟─d565a390-479c-4885-a846-12758ff91ba2
+# ╟─7b3277d5-af53-405c-b72b-8a2427d8c036
+# ╟─f2ff5607-5d57-435b-a2ff-b95347281185
+# ╟─56df8b45-11da-4004-aadc-bbeee03d1dcd
+# ╟─5b017406-a4d7-4363-8eac-e4ba6f2bef00
+# ╟─f6fffb2d-1167-4cf8-a39c-59f83ced194b
+# ╟─ed21185b-0b97-4c56-96fb-ebfee3e0c2ca
+# ╟─583d7b15-1241-4e41-a96c-d390b4d078bc
+# ╟─76951cd6-ce41-4695-b207-fd9441cb8d76
+# ╟─d9608af2-10f9-4c49-9198-d58b1c9ead1e
+# ╟─1a370f57-90dd-4fe9-a557-81ce32a534c5
+# ╠═e0022b6b-f4f7-4616-ab52-f62643dc742e
 # ╟─b1fdc06c-ba3c-41cb-8bec-91688bb39c68
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
